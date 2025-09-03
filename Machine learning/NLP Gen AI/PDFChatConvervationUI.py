@@ -25,7 +25,7 @@ doc = text_splitter.split_documents(data)
 
 # Vector embedding and vercor storev
 vectorstore = Chroma(documents = doc,
-                     embedding = GoogleGenerativeAIEmbeddings(model = "model/embedding-001"))
+                     embedding = GoogleGenerativeAIEmbeddings(model = "models/embedding-001"))
 
 # Retriver
 retriever = vectorstore.as_retriever(search_type = 'similarity')
