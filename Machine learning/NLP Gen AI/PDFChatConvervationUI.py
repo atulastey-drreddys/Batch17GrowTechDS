@@ -19,4 +19,6 @@ loader = PyPDFLoader('my_paper.pdf')
 data = loader.load()
 
 # Text Splitting
-text_splitter = RecursiveCharacterTextSplitter(ch)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size = 1000,
+                                               chunk_overlap = 20)
+doc = text_splitter.split_documents()
