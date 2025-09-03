@@ -16,4 +16,5 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 
 # PDF Loader
 loader = PyPDFLoader('my_paper.pdf')
-data = loader.la
+data = loader.load()
+
