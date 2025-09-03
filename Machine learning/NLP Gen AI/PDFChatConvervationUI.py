@@ -39,4 +39,5 @@ promt = query
 
 system_output = (
     "You ara my personal assistant to talk with PDF"
+    "{context}"
 )
