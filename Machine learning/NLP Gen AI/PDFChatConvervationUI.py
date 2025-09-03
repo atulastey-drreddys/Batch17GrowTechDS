@@ -13,6 +13,8 @@ from langchain_core.prompts import ChatPromptTemplate
 import os
 from dotenv import load_dotenv
 
+load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
 
 # PDF Loader
 loader = PyPDFLoader('my_paper.pdf')
