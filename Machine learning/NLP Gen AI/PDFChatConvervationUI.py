@@ -32,4 +32,4 @@ retriever = vectorstore.as_retriever(search_type = 'similarity')
 
 # define
 
-llm = ChatGoogleGenerativeAI()
+llm = ChatGoogleGenerativeAI(model = 'gemini-')
