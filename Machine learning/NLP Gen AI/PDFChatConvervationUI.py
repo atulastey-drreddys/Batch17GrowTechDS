@@ -50,4 +50,4 @@ promt = ChatPromptTemplate.from_messages(
 # Create chains
 
 if query:
-    question_answer_chain = cr
+    question_answer_chain = create_stuff_documents_chain(llm,)
