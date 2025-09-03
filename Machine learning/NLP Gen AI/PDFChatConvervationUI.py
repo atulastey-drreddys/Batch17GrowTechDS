@@ -10,8 +10,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 
 # API Configuration
+import os
 from dotenv import load_dotenv
-load_dotenv()
 
 
 # PDF Loader
