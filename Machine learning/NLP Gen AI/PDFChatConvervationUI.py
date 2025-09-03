@@ -26,3 +26,4 @@ doc = text_splitter.split_documents(data)
 # Vector embedding and vercor storev
 vectorstore = Chroma(documents = doc,
                      embedding = GoogleGenerativeAIEmbeddings(model = "model/embedding-001"))
+
