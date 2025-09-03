@@ -50,4 +50,4 @@ promt = ChatPromptTemplate.from_messages(
 # Create chains
 
 if query:
-    que
+    question_answer_chain = cr
