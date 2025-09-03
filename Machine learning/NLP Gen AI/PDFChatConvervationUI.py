@@ -19,3 +19,4 @@ loader = PyPDFLoader('my_paper.pdf')
 data = loader.load()
 
 # Text Splitting
+text_splitter = RecursiveCharacterTextSplitter(ch)
