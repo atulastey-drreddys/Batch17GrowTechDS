@@ -5,5 +5,6 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_chroma import Chroma
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import create_retrieval_chain
-from langchain.chains.combine_documents import create
+from langchain.chains.combine_documents import create_stuff_documents_chain
+
 
