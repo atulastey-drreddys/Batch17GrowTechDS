@@ -1,0 +1,1 @@
+Supervised learning is a machine learning approach where an algorithm learns from a labeled dataset to make predictions or classifications on new, unseen data. The "supervision" comes from the labeled data, which provides the correct answers, allowing the algorithm to learn the relationship between inputs and outputs. 

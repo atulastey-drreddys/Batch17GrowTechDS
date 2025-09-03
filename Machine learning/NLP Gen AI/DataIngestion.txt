@@ -1,0 +1,7 @@
+Data ingestion in LangChain refers to the process of loading and preparing data from various sources for use within LangChain applications, particularly for tasks like building Retrieval-Augmented Generation (RAG) systems. This process typically involves:
+Document Loaders: LangChain provides a wide array of DocumentLoaders that facilitate loading data from diverse sources. These sources can include:
+Files: PDFs, text files, CSVs, Word documents, JSON, Markdown, etc.
+Web-based sources: Web pages, sitemaps, specific web elements using WebBaseLoader.
+Databases: SQL databases, NoSQL databases.
+Cloud storage services: AWS S3, Google Cloud Storage.
+Specialized sources: ArXiv, Wikipedia, Notion, etc.
