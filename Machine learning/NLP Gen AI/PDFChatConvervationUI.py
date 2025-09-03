@@ -14,4 +14,5 @@ gemini_api = "AIzaSyAYRSbisbijk-vcJ6CIhf1Ytf4RyJJOaX0"
 genai.configure(api_key=gemini_api)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-# PDF 
+# PDF Loader
+loader = 
