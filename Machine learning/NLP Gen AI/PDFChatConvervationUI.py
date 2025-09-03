@@ -15,4 +15,4 @@ genai.configure(api_key=gemini_api)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # PDF Loader
-loader = 
+loader = PyPDFLoader('')
