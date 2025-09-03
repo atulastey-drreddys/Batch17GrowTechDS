@@ -57,7 +57,8 @@ if query:
     rag_chain = create_retrieval_chain(retriever,question_answer_chain)
 
     respones = rag_chain.invoke({'input':query})
+    st.write(respones)
     print(respones["answer"])
-    
+
 
     st.write(respones['answer'])
