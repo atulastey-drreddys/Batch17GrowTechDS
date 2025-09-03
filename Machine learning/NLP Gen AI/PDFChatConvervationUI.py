@@ -27,3 +27,5 @@ doc = text_splitter.split_documents(data)
 vectorstore = Chroma(documents = doc,
                      embedding = GoogleGenerativeAIEmbeddings(model = "model/embedding-001"))
 
+# Retriver
+
