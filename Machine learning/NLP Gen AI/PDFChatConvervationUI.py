@@ -24,4 +24,4 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size = 1000,
 doc = text_splitter.split_documents(data)
 
 # Vector embedding and vercor storev
-vector
+vectorstore = Chroma()
