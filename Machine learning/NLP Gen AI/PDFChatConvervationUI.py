@@ -12,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 # API Configuration
 gemini_api = "AIzaSyBfNuqs6-vm_LJLrCs3ItyHtDTr25J1DDs"
 genai.configure(api_key=gemini_api)
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # PDF Loader
 loader = PyPDFLoader('my_paper.pdf')
