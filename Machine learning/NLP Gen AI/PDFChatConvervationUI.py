@@ -47,3 +47,6 @@ promt = ChatPromptTemplate.from_messages(
     ("human","{input}")
 )
 
+# Create chains
+
+
