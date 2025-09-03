@@ -28,4 +28,4 @@ vectorstore = Chroma(documents = doc,
                      embedding = GoogleGenerativeAIEmbeddings(model = "model/embedding-001"))
 
 # Retriver
-retriever = vectorstore.
+retriever = vectorstore.as_retriever(sear)
