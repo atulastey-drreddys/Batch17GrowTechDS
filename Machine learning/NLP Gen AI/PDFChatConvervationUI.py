@@ -55,3 +55,4 @@ if query:
 
     respones = rag_chain.invoke({'input':query})
     print(respones["answer"])
+
