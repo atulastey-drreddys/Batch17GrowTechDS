@@ -41,8 +41,9 @@ system_output = (
     "You ara my personal assistant to talk with PDF"
     "{context}"
 )
-
+# Make ChatPromptTemplate
 promt = ChatPromptTemplate.from_messages(
     ('system',system_output),
     ("human","{input}")
 )
+
