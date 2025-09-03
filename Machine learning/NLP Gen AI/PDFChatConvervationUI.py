@@ -37,4 +37,4 @@ llm = ChatGoogleGenerativeAI(model = 'gemini-1.5-flash')
 query = st.chat_input("Ask me anything: ")
 promt = query
 
-sy
+system_o
