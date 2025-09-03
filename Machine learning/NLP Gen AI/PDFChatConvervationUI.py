@@ -29,3 +29,5 @@ vectorstore = Chroma(documents = doc,
 
 # Retriver
 retriever = vectorstore.as_retriever(search_type = 'similarity')
+
+# 
