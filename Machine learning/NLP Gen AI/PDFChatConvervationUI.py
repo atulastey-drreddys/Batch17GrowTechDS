@@ -23,3 +23,4 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size = 1000,
                                                chunk_overlap = 20)
 doc = text_splitter.split_documents(data)
 
+# Vec
