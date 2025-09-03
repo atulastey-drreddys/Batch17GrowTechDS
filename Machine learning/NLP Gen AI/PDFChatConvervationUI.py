@@ -32,7 +32,7 @@ retriever = vectorstore.as_retriever(search_type = 'similarity')
 
 # define
 
-llm = ChatGoogleGenerativeAI(model = 'gemini-1.5-pro')
+llm = ChatGoogleGenerativeAI(model = 'gemini-1.5-f')
 
 query = st.chat_input("Ask me anything: ")
 promt = query
