@@ -44,5 +44,5 @@ system_output = (
 
 promt = ChatPromptTemplate.from_messages(
     ('system',system_output),
-    
+    ("human")
 )
