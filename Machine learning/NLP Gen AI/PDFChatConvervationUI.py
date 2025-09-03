@@ -28,4 +28,4 @@ vectorstore = Chroma(documents = doc,
                      embedding = GoogleGenerativeAIEmbeddings(model = "model/embedding-001"))
 
 # Retriver
-retriever = vectorstore.as_retriever(sear)
+retriever = vectorstore.as_retriever(search_type = 'similarity')
