@@ -61,4 +61,4 @@ if query:
     print(respones["answer"])
 
 
-    st.write(respones['answer'])
+    st.write("Chatbot response :",respones['answer'])
