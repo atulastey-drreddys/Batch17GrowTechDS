@@ -42,7 +42,7 @@ system_output = (
     "{context}"
 )
 # Make ChatPromptTemplate
-promt = ChatPromptTemplate.from_messages(
+prompt = ChatPromptTemplate.from_messages(
     [('system',system_output),
     ("human","{input}")]
 )
