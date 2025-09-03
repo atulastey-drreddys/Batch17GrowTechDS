@@ -9,3 +9,7 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 
+# API Configuration
+gemini_api = "AIzaSyAYRSbisbijk-vcJ6CIhf1Ytf4RyJJOaX0"
+genai.configure(api_key=gemini_api)
+model = genai.GenerativeModel('gemini-1.5-flash')
