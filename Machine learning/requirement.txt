@@ -28,4 +28,4 @@ langchain_huggingface
 sentence-transformers
 faiss-cpu
 langchain-text-splitters
-langcain_core
+langchain-core
