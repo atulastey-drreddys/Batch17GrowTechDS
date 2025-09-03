@@ -38,5 +38,5 @@ query = st.chat_input("Ask me anything: ")
 promt = query
 
 system_output = (
-    "You ara my personal assi"
+    "You ara my personal assistan "
 )
