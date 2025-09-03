@@ -10,7 +10,8 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 
 # API Configuration
-from dot
+from dotenv import load_dotenv
+
 gemini_api = "AIzaSyBfNuqs6-vm_LJLrCs3ItyHtDTr25J1DDs"
 genai.configure(api_key=gemini_api)
 model = genai.GenerativeModel('gemini-1.5-pro')
