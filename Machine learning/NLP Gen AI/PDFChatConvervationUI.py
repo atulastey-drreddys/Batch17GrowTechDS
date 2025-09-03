@@ -43,10 +43,11 @@ system_output = (
 )
 # Make ChatPromptTemplate
 promt = ChatPromptTemplate.from_messages(
-    ('system',system_output),
-    ("human","{input}")
+    [('system',system_output),
+    ("human","{input}")]
 )
 
 # Create chains
 
-
+if query:
+    que
