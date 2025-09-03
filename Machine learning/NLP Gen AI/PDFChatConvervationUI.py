@@ -26,7 +26,7 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size = 1000,
 doc = text_splitter.split_documents(data)
 
 # Vector embedding and vercor storev
-vectorstore = Chroma(documents = doc,
+vectorstore = Chroma(document = doc,
                      embedding = GoogleGenerativeAIEmbeddings(model = "models/embedding-001"))
 
 # Retriver
