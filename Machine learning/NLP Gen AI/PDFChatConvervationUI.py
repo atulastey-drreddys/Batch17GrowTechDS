@@ -42,4 +42,4 @@ system_output = (
     "{context}"
 )
 
-promt = ChatPromptTemplate.from_message()
+promt = ChatPromptTemplate.from_messages()
