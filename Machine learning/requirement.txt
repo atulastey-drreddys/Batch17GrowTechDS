@@ -29,3 +29,4 @@ sentence-transformers
 faiss-cpu
 langcain-chroma
 langchain_text_splitter
+langcain_core
