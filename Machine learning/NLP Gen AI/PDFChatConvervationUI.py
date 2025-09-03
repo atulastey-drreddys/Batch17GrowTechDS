@@ -4,4 +4,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_chroma import Chroma
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.chain import create_retr
+from langchain.chains import create_retrieval_chain
+from langchain.chains.combine_document
+
