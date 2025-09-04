@@ -21,8 +21,8 @@ def Summerize_with_gemini(content):
 if __name__ == "__main__":
     url = input("Enter the website URL")
     content = scrape_website_content(url)
-if "Error" in content:
-    print(content)
+    if "Error" in content:
+        print(content)
 else:
     print("Website content summary")
     summary = Summerize_with_gemini(content)
