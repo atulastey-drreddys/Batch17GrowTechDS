@@ -12,3 +12,5 @@ def scrape_website_content(url):
         return article.text()
     except Exception as e:
         return e
+    
+def Summerize_with_gemini(content)
