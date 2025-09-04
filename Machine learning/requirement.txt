@@ -31,3 +31,4 @@ langchain-text-splitters
 langchain-core
 newspaper3k
 requests
+lxml_html_clean
