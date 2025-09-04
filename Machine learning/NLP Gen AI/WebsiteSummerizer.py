@@ -3,3 +3,4 @@ from newspaper import Article
 
 genai.configure(api_key = "AIzaSyBHtrj9Py_7uS8o8tLBYOsh3Qw9I5NPWkA")
 
+
