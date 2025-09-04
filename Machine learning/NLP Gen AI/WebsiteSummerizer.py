@@ -14,7 +14,7 @@ def scrape_website_content(url):
         return e
     
 def Summerize_with_gemini(content):
-    promt = f"Summerize the following website content in a very simple point : {contnt}"
+    prompt = f"Summerize the following website content in a very simple point : {contnt}"
     response = model.generate_content(prompt)
     return response.text
 
