@@ -30,3 +30,4 @@ faiss-cpu
 langchain-text-splitters
 langchain-core
 newspaper
+requests
