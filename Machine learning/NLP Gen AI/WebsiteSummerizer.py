@@ -14,4 +14,4 @@ def scrape_website_content(url):
         return e
     
 def Summerize_with_gemini(content):
-    promt = f"Summerize the following website content in a very simple point"
+    promt = f"Summerize the following website content in a very simple point {con}"
