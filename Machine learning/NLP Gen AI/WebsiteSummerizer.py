@@ -17,3 +17,13 @@ def Summerize_with_gemini(content):
     promt = f"Summerize the following website content in a very simple point : {contnt}"
     response = model.generate_content(prompt)
     return response.text
+
+if __name__ == "__main__":
+    url = input("Enter the website URL")
+    content = scrape_website_content(url)
+if "Error" in content:
+    print(content)
+else:
+    print("Website content summary")
+    summary = Summerize_with_gemini(content)
+    print(summary)
