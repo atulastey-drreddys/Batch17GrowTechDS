@@ -11,7 +11,8 @@ def scrape_website_content(url):
         article.parse()
         return article.text()
     except Exception as e:
-        return f"Error Fetching content :str{e}"
+        return f"Error Fetching content :str{e
+                                             }"
     
 def Summerize_with_gemini(content):
     prompt = f"Summerize the following website content in a very simple point : \n\n{content}"
