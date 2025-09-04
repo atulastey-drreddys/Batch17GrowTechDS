@@ -1,5 +1,5 @@
 import google.generativeai as genai
 from newspaper import Article
 
-gen
+genai.configure(api_key )
 
