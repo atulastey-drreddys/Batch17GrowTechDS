@@ -9,7 +9,7 @@ def scrape_website_content(url):
         article = Article(url)
         article.download()
         article.parse()
-        return article.text()
+        return article.text
     except Exception as e:
         return f"Error Fetching content : {str(e)}"
     
