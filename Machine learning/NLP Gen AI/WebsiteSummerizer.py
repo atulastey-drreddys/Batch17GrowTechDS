@@ -11,3 +11,4 @@ def scrape_website_content(url):
         article.parse()
         return article.text()
     except Exception as e:
+        return e
