@@ -19,7 +19,7 @@ def Summerize_with_gemini(content):
     return response.text
 
 if __name__ == "__main__":
-    url = input("Enter the website URL")
+    url = input("Enter the website URL : ")
     content = scrape_website_content(url)
     if "Error" in content:
         print(content)
