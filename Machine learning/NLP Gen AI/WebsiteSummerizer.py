@@ -13,4 +13,5 @@ def scrape_website_content(url):
     except Exception as e:
         return e
     
-def Summerize_with_gemini(content)
+def Summerize_with_gemini(content):
+    promt = f"Sum"
