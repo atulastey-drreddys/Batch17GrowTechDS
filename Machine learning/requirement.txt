@@ -29,5 +29,5 @@ sentence-transformers
 faiss-cpu
 langchain-text-splitters
 langchain-core
-newspaper
+newspaper3k
 requests
