@@ -10,4 +10,4 @@ checkpoints/
 logs/
 .pytest_cache/
 IMDB Dataset.csv/
-__pycache___
+__pycache__
